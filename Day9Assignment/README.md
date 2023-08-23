@@ -1,5 +1,5 @@
 
-## Div Property Changer
+## DropDowns
 
 This is a simple HTML and JavaScript code that allows you to change the properties of a div element. 
 
