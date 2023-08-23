@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  #text {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  #addButton {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  #paragraphs {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
