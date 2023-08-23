@@ -20,21 +20,9 @@ The HTML code creates a simple webpage with a text input, a button, and a div to
 <div>
     <input type="text" id="text">
     <button id="addButton">Add</button>
-    <div id="paragraphs"></div>
+    <div id="paragraph"></div>
 </div>
-    <script>
-        const Button = document.getElementById('addButton');
-const text = document.getElementById('text');
-const paragraphsDiv = document.getElementById('paragraphs');
-
-Button.addEventListener('click', () => {
-        const newText = text.value;
-        const newParagraph = document.createElement('p');
-        newParagraph.textContent = newText;
-        paragraphsDiv.appendChild(newParagraph);
-        text.value = '';
-});
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
 ```
@@ -46,13 +34,13 @@ The JavaScript code adds a new paragraph to the webpage when the "Add" button is
 ```javascript
 const Button = document.getElementById('addButton');
 const text = document.getElementById('text');
-const paragraphsDiv = document.getElementById('paragraphs');
+const paragraph = document.getElementById('paragraph');
 
 Button.addEventListener('click', () => {
         const newText = text.value;
         const newParagraph = document.createElement('p');
         newParagraph.textContent = newText;
-        paragraphsDiv.appendChild(newParagraph);
+        paragraph.appendChild(newParagraph);
         text.value = '';
 });
 
