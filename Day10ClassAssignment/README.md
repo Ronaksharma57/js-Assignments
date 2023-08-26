@@ -84,7 +84,6 @@ The CSS code styles the container div, the circle div, and the shape div. The co
 The JavaScript code adds event listeners to the "change color" and "change shape" buttons. The "change color" button changes the background color of the circle div to a random color from the Color array. The "change shape" button changes the shape of the shape div from a circle to a triangle and vice versa.
 
 ```javascript
-  <script>
         var Color = [
   "red",
   "green",
