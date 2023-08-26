@@ -3,6 +3,8 @@
 
 This is a simple HTML, CSS, and JavaScript project that creates a circle that can change color and shape.
 
+Hosted Link: https://ronaksharma57.github.io/js-Assignments/Day10ClassAssignment/
+
 ## HTML
 
 The HTML code creates a container div with a circle div inside it. The circle div has a shape div inside it. The shape div is initially a circle, but can be changed to a triangle by clicking the "change shape" button.
