@@ -1,5 +1,4 @@
     var Color = [
-  "red",
   "green",
   "cyan",
   "black",
