@@ -16,7 +16,7 @@ const circle = document.getElementById("circle");
         const shape = document.querySelector(".shape");
         const Changecolor = document.querySelector("#color");
         const changeShape = document.querySelector("#changeShape");
-        color.addEventListener("click",()=>{
+        Changecolor.addEventListener("click",()=>{
           
         if (index === Color.length) {
         index = 0;
